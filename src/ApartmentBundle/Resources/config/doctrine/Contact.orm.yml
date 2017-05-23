@@ -1,0 +1,11 @@
+ApartmentBundle\Entity\Contact:
+    type: entity
+    table: null
+    repositoryClass: ApartmentBundle\Repository\ContactRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }

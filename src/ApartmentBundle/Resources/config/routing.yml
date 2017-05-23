@@ -1,0 +1,3 @@
+apartment_homepage:
+    path:     /
+    defaults: { _controller: ApartmentBundle:Default:index }

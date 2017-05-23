@@ -1,0 +1,11 @@
+ApartmentBundle\Entity\Users:
+    type: entity
+    table: null
+    repositoryClass: ApartmentBundle\Repository\UsersRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }
