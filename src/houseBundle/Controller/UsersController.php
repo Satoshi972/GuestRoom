@@ -12,7 +12,7 @@ use houseBundle\Entity\users;
 class UsersController extends Controller
 {
 	/**
-	* @Route("/home", name="home")
+	* @Route("/user/home", name="home")
 	* @Method ({"GET"})
 	*/
     public function indexAction()
@@ -20,6 +20,10 @@ class UsersController extends Controller
         return $this->render('houseBundle:Users:index.html.twig');
     }
 
+    /**
+	* @Route("/user/create", name="home")
+	* @Method ({"GET|POST"})
+	*/
     public function createUserAction()
     {
     	$em = $this->getDoctrine()->getManager();
