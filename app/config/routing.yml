@@ -1,3 +1,7 @@
+house:
+    resource: "@houseBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
