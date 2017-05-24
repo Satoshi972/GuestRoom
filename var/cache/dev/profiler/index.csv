@@ -1,0 +1,5 @@
+4efc52,::1,GET,http://localhost/guestRoom/web/app_dev.php/home,1495587249,32e54d,200
+32e54d,::1,GET,http://localhost/guestRoom/web/app_dev.php/home,1495587249,,500
+68f743,::1,GET,http://localhost/guestRoom/web/app_dev.php/home,1495587313,2aaa83,200
+2aaa83,::1,GET,http://localhost/guestRoom/web/app_dev.php/home,1495587313,,404
+099c4f,::1,GET,http://localhost/guestRoom/web/app_dev.php/home,1495587349,,200
