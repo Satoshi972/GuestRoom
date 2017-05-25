@@ -84,6 +84,16 @@ class house
      */
     private $quota;
 
+    /**
+     * @ORM\OneToMany(targetEntity="medias", mappedBy="house")
+     */
+    private $medias;
+
+    public function __construct()
+    {
+        $this->medias = new ArrayCollection();
+    }
+
 
     /**
      * Get id

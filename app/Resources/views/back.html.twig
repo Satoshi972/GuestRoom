@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {# asset fait allusio au dossier web #}     
+        <link rel="stylesheet" href="{{ asset('style.css') }}">
+        <link rel="stylesheet" href="{{ asset('menu.css') }}">
+        {# Bootstrap #}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        {# Font awesome #}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+       <header class="cd-main-header">
+            <a href="#0" class="cd-logo"><img src="img/cd-logo.svg" alt="Logo"></a>
+            
+            <div class="cd-search">
+                <form action="#0">
+                    <input type="search" placeholder="Search...">
+                </form>
+            </div> <!-- cd-search -->
+         
+            <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+         
+            <nav class="cd-nav">
+                <ul class="cd-top-nav">
+                    <li><a href="#0">Tour</a></li>
+                    <li><a href="#0">Support</a></li>
+                    <li class="has-children account">
+                        <a href="#0">
+                            <img src="img/cd-avatar.png" alt="avatar">
+                            Account
+                        </a>
+         
+                        <ul>
+                            <li><a href="#0">My Account</a></li>
+                            <!-- other list items here -->
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header> <!-- .cd-main-header -->
+         
+        <main class="cd-main-content">
+            <nav class="cd-side-nav">
+                <ul>
+                    <li class="cd-label">Main</li>
+                    <li class="has-children overview">
+                        <a href="#0">Overview</a>
+                        
+                        <ul>
+                            <li><a href="#0">All Data</a></li>
+                            <!-- other list items here -->
+                        </ul>
+                    </li>
+                    <li class="has-children notifications active">
+                        <a href="#0">Notifications<span class="count">3</span></a>
+                        
+                        <ul>
+                            <li><a href="#0">All Notifications</a></li>
+                            <!-- other list items here -->
+                        </ul>
+                    </li>
+         
+                    <!-- other list items here -->
+                </ul>
+         
+                <!-- other unordered lists here -->
+            </nav>
+         
+            <div class="content-wrapper">
+                {% block body %}{% endblock %}
+            </div> <!-- .content-wrapper -->
+        </main> <!-- .cd-main-content -->
+        {# JQuery #}
+        <script
+              src="https://code.jquery.com/jquery-3.2.1.min.js"
+              integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+              crossorigin="anonymous"></script>
+        {# JQuery UI #}
+        <script
+              src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+              integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+              crossorigin="anonymous"></script>
+        {# Bootstrap #}
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
+        <script>
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+            $(".side-nav .collapse").on("hide.bs.collapse", function() {                   
+                $(this).prev().find(".fa").eq(1).removeClass("fa-angle-right").addClass("fa-angle-down");
+            });
+            $('.side-nav .collapse').on("show.bs.collapse", function() {                        
+                $(this).prev().find(".fa").eq(1).removeClass("fa-angle-down").addClass("fa-angle-right");        
+            });
+        })    
+        </script>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

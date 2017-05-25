@@ -114,16 +114,30 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'houseBundle\\Controller\\DefaultController::indexAction',  '_route' => 'house_homepage',);
         }
 
-        // home
-        if ($pathinfo === '/home') {
-            if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                $allow = array_merge($allow, array('GET', 'HEAD'));
-                goto not_home;
-            }
+        if (0 === strpos($pathinfo, '/user')) {
+            // home
+            if ($pathinfo === '/user/home') {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_home;
+                }
 
-            return array (  '_controller' => 'houseBundle\\Controller\\UsersController::indexAction',  '_route' => 'home',);
+                return array (  '_controller' => 'houseBundle\\Controller\\UsersController::indexAction',  '_route' => 'home',);
+            }
+            not_home:
+
+            // create
+            if ($pathinfo === '/user/create') {
+                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
+                    goto not_create;
+                }
+
+                return array (  '_controller' => 'houseBundle\\Controller\\UsersController::createUserAction',  '_route' => 'create',);
+            }
+            not_create:
+
         }
-        not_home:
 
         // homepage
         if (rtrim($pathinfo, '/') === '') {

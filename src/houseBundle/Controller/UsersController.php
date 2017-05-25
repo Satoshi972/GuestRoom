@@ -21,7 +21,7 @@ class UsersController extends Controller
     }
 
     /**
-	* @Route("/user/create", name="home")
+	* @Route("/user/create", name="create")
 	* @Method ({"GET|POST"})
 	*/
     public function createUserAction()

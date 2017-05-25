@@ -36,11 +36,10 @@ class medias
     private $url;
 
     /**
-     * @var int
-     *
-     * @ORM\Column(name="id_apt", type="integer")
+     * @ORM\ManyToOne(targetEntity="house", inversedBy="medias")
+     * @ORM\JoinColumn(name="house_id", referencedColumnName="id")
      */
-    private $idApt;
+    private $house;
 
 
     /**
@@ -99,30 +98,6 @@ class medias
     public function getUrl()
     {
         return $this->url;
-    }
-
-    /**
-     * Set idApt
-     *
-     * @param integer $idApt
-     *
-     * @return medias
-     */
-    public function setIdApt($idApt)
-    {
-        $this->idApt = $idApt;
-    
-        return $this;
-    }
-
-    /**
-     * Get idApt
-     *
-     * @return integer
-     */
-    public function getIdApt()
-    {
-        return $this->idApt;
     }
 }
 
