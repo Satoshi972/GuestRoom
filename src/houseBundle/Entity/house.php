@@ -320,5 +320,38 @@ class house
     {
         return $this->quota;
     }
-}
 
+    /**
+     * Add media
+     *
+     * @param \houseBundle\Entity\medias $media
+     *
+     * @return house
+     */
+    public function addMedia(\houseBundle\Entity\medias $media)
+    {
+        $this->medias[] = $media;
+    
+        return $this;
+    }
+
+    /**
+     * Remove media
+     *
+     * @param \houseBundle\Entity\medias $media
+     */
+    public function removeMedia(\houseBundle\Entity\medias $media)
+    {
+        $this->medias->removeElement($media);
+    }
+
+    /**
+     * Get medias
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getMedias()
+    {
+        return $this->medias;
+    }
+}

@@ -99,5 +99,28 @@ class medias
     {
         return $this->url;
     }
-}
 
+    /**
+     * Set house
+     *
+     * @param \houseBundle\Entity\house $house
+     *
+     * @return medias
+     */
+    public function setHouse(\houseBundle\Entity\house $house = null)
+    {
+        $this->house = $house;
+    
+        return $this;
+    }
+
+    /**
+     * Get house
+     *
+     * @return \houseBundle\Entity\house
+     */
+    public function getHouse()
+    {
+        return $this->house;
+    }
+}
