@@ -19,11 +19,11 @@ class __TwigTemplate_b92f918bee3d100c674499949d29894e6b860085515e46accb3cddb6469
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_7335425c4b0850181396d81f4bc7a32e2f0105cec6e01e1e5874237157c9dd40 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_7335425c4b0850181396d81f4bc7a32e2f0105cec6e01e1e5874237157c9dd40->enter($__internal_7335425c4b0850181396d81f4bc7a32e2f0105cec6e01e1e5874237157c9dd40_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "back.html.twig"));
+        $__internal_917ca03d602c4bfb52944fc7d9d8956ac5e304d0ab31a7c42891998df9a5b58d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_917ca03d602c4bfb52944fc7d9d8956ac5e304d0ab31a7c42891998df9a5b58d->enter($__internal_917ca03d602c4bfb52944fc7d9d8956ac5e304d0ab31a7c42891998df9a5b58d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "back.html.twig"));
 
-        $__internal_2e330d8e0f0df215c4cd9acde625a2a87f457727e772ca464f62c89fa0a4dfcd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2e330d8e0f0df215c4cd9acde625a2a87f457727e772ca464f62c89fa0a4dfcd->enter($__internal_2e330d8e0f0df215c4cd9acde625a2a87f457727e772ca464f62c89fa0a4dfcd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "back.html.twig"));
+        $__internal_797363ed9db4666795da47986010d1f449e63be56b3cdf14a273f9633c462305 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_797363ed9db4666795da47986010d1f449e63be56b3cdf14a273f9633c462305->enter($__internal_797363ed9db4666795da47986010d1f449e63be56b3cdf14a273f9633c462305_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "back.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -60,7 +60,9 @@ class __TwigTemplate_b92f918bee3d100c674499949d29894e6b860085515e46accb3cddb6469
         echo "\" />
     </head>
     <body>
-        <nav class=\"navbar navbar-default navbar-static-top\">
+        ";
+        // line 18
+        echo "        <nav class=\"navbar navbar-default navbar-static-top\">
             <div class=\"container-fluid\">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class=\"navbar-header\">
@@ -74,31 +76,27 @@ class __TwigTemplate_b92f918bee3d100c674499949d29894e6b860085515e46accb3cddb6469
                         <span class=\"icon-bar\"></span>
                     </button>
                     <a class=\"navbar-brand\" href=\"#\">
-                        Administrator
+                        Administration
                     </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">      
-                    <form class=\"navbar-form navbar-left\" method=\"GET\" role=\"search\">
-                        <div class=\"form-group\">
-                            <input type=\"text\" name=\"q\" class=\"form-control\" placeholder=\"Search\">
-                        </div>
-                        <button type=\"submit\" class=\"btn btn-default\"><i class=\"glyphicon glyphicon-search\"></i></button>
-                    </form>
-                    <ul class=\"nav navbar-nav navbar-right\">
-                        <li><a href=\"http://www.pingpong-labs.com\" target=\"_blank\">Visit Site</a></li>
+                  ";
+        // line 44
+        echo "                    <ul class=\"nav navbar-nav navbar-right\">
+                        <li><a href=\"http://www.pingpong-labs.com\" target=\"_blank\">Retour sur le site</a></li>
                         <li class=\"dropdown \">
                             <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">
-                                Account
+                                Compte
                                 <span class=\"caret\"></span></a>
                                 <ul class=\"dropdown-menu\" role=\"menu\">
-                                    <li class=\"dropdown-header\">SETTINGS</li>
+                                    <li class=\"dropdown-header\">Reglages</li>
                                     <li class=\"\"><a href=\"#\">Other Link</a></li>
                                     <li class=\"\"><a href=\"#\">Other Link</a></li>
                                     <li class=\"\"><a href=\"#\">Other Link</a></li>
                                     <li class=\"divider\"></li>
-                                    <li><a href=\"#\">Logout</a></li>
+                                    <li><a href=\"#\">Déconnexion</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -117,45 +115,40 @@ class __TwigTemplate_b92f918bee3d100c674499949d29894e6b860085515e46accb3cddb6469
                                     <!-- Main Menu -->
                                     <div class=\"side-menu-container\">
                                         <ul class=\"nav navbar-nav\">
-                                            <li class=\"active\"><a href=\"#\"><span class=\"glyphicon glyphicon-dashboard\"></span> Dashboard</a></li>
-                                            <li><a href=\"#\"><span class=\"glyphicon glyphicon-plane\"></span> Active Link</a></li>
-                                            <li><a href=\"#\"><span class=\"glyphicon glyphicon-cloud\"></span> Link</a></li>
-
                                             <!-- Dropdown-->
                                             <li class=\"panel panel-default\" id=\"dropdown\">
-                                                <a data-toggle=\"collapse\" href=\"#dropdown-lvl1\">
-                                                    <span class=\"glyphicon glyphicon-user\"></span> Sub Level <span class=\"caret\"></span>
+                                                <a data-toggle=\"collapse\" href=\"#house\">
+                                                    <span class=\"glyphicon glyphicon-home\"></span> Locations <span class=\"caret\"></span>
                                                 </a>
 
                                                 <!-- Dropdown level 1 -->
-                                                <div id=\"dropdown-lvl1\" class=\"panel-collapse collapse\">
+                                                <div id=\"house\" class=\"panel-collapse collapse\">
                                                     <div class=\"panel-body\">
                                                         <ul class=\"nav navbar-nav\">
-                                                            <li><a href=\"#\">Link</a></li>
-                                                            <li><a href=\"#\">Link</a></li>
-                                                            <li><a href=\"#\">Link</a></li>
-
-                                                            <!-- Dropdown level 2 -->
-                                                            <li class=\"panel panel-default\" id=\"dropdown\">
-                                                                <a data-toggle=\"collapse\" href=\"#dropdown-lvl2\">
-                                                                    <span class=\"glyphicon glyphicon-off\"></span> Sub Level <span class=\"caret\"></span>
-                                                                </a>
-                                                                <div id=\"dropdown-lvl2\" class=\"panel-collapse collapse\">
-                                                                    <div class=\"panel-body\">
-                                                                        <ul class=\"nav navbar-nav\">
-                                                                            <li><a href=\"#\">Link</a></li>
-                                                                            <li><a href=\"#\">Link</a></li>
-                                                                            <li><a href=\"#\">Link</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
+                                                            <li><a href=\"#\">Ajouter une location</a></li>
+                                                            <li><a href=\"#\">Liste des locations</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li><a href=\"#\"><span class=\"glyphicon glyphicon-signal\"></span> Link</a></li>
+                                            <!-- Dropdown-->
+                                            <li class=\"panel panel-default\" id=\"dropdown\">
+                                                <a data-toggle=\"collapse\" href=\"#users\">
+                                                    <span class=\"glyphicon glyphicon-user\"></span> Utilisateurs <span class=\"caret\"></span>
+                                                </a>
+
+                                                <!-- Dropdown level 1 -->
+                                                <div id=\"users\" class=\"panel-collapse collapse\">
+                                                    <div class=\"panel-body\">
+                                                        <ul class=\"nav navbar-nav\">
+                                                            <li><a href=\"#\">Voir les réservations</a></li>
+                                                            <li><a href=\"#\">Link</a></li>
+                                                            <li><a href=\"#\">Link</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
 
                                         </ul>
                                     </div><!-- /.navbar-collapse -->
@@ -163,20 +156,20 @@ class __TwigTemplate_b92f918bee3d100c674499949d29894e6b860085515e46accb3cddb6469
                             </div>
 
                     </div> ";
-        // line 119
+        // line 115
         echo "        
                 </div> ";
-        // line 121
+        // line 117
         echo "                <div class=\"col-md-10 content\">
                     <div class=\"container\">
                         ";
-        // line 123
+        // line 119
         $this->displayBlock('body', $context, $blocks);
-        // line 124
+        // line 120
         echo "                    </div>
                 </div>
             </div> ";
-        // line 127
+        // line 123
         echo "
         <footer class=\"text-center bottom\">
             <b>
@@ -186,100 +179,100 @@ class __TwigTemplate_b92f918bee3d100c674499949d29894e6b860085515e46accb3cddb6469
            </b>
         </footer>
         ";
-        // line 136
+        // line 132
         echo "        <script  src=\"https://code.jquery.com/jquery-3.2.1.min.js\"   integrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\"  crossorigin=\"anonymous\"></script>
         ";
-        // line 138
+        // line 134
         echo "        <script  src=\"https://code.jquery.com/ui/1.12.0/jquery-ui.min.js\"  integrity=\"sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=\"             crossorigin=\"anonymous\"></script>
         ";
-        // line 140
+        // line 136
         echo "        <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"> </script>
 
         <script src=\"";
-        // line 142
+        // line 138
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js/menu.js"), "html", null, true);
         echo "\"></script>
         ";
-        // line 143
+        // line 139
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 144
+        // line 140
         echo "    </body>
 </html>
 ";
         
-        $__internal_7335425c4b0850181396d81f4bc7a32e2f0105cec6e01e1e5874237157c9dd40->leave($__internal_7335425c4b0850181396d81f4bc7a32e2f0105cec6e01e1e5874237157c9dd40_prof);
+        $__internal_917ca03d602c4bfb52944fc7d9d8956ac5e304d0ab31a7c42891998df9a5b58d->leave($__internal_917ca03d602c4bfb52944fc7d9d8956ac5e304d0ab31a7c42891998df9a5b58d_prof);
 
         
-        $__internal_2e330d8e0f0df215c4cd9acde625a2a87f457727e772ca464f62c89fa0a4dfcd->leave($__internal_2e330d8e0f0df215c4cd9acde625a2a87f457727e772ca464f62c89fa0a4dfcd_prof);
+        $__internal_797363ed9db4666795da47986010d1f449e63be56b3cdf14a273f9633c462305->leave($__internal_797363ed9db4666795da47986010d1f449e63be56b3cdf14a273f9633c462305_prof);
 
     }
 
     // line 5
     public function block_title($context, array $blocks = array())
     {
-        $__internal_a299e4812840bf60f897d406e6fc8624a3cdd4fc73c328bb600883d278c3854c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a299e4812840bf60f897d406e6fc8624a3cdd4fc73c328bb600883d278c3854c->enter($__internal_a299e4812840bf60f897d406e6fc8624a3cdd4fc73c328bb600883d278c3854c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_da82c25ec11a0ebf3d486b9b967ed2d9e27e325d171ade7098b3b268913b97d9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_da82c25ec11a0ebf3d486b9b967ed2d9e27e325d171ade7098b3b268913b97d9->enter($__internal_da82c25ec11a0ebf3d486b9b967ed2d9e27e325d171ade7098b3b268913b97d9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_92a1ce30497da32fb29d9b1e573bf9b47217328cc84017daf5b8cd5e6d25ebe3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_92a1ce30497da32fb29d9b1e573bf9b47217328cc84017daf5b8cd5e6d25ebe3->enter($__internal_92a1ce30497da32fb29d9b1e573bf9b47217328cc84017daf5b8cd5e6d25ebe3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_04fed1303df755a92efee1622d49005446c39a9c44e8f54a1d7355ed3168f1d1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_04fed1303df755a92efee1622d49005446c39a9c44e8f54a1d7355ed3168f1d1->enter($__internal_04fed1303df755a92efee1622d49005446c39a9c44e8f54a1d7355ed3168f1d1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Welcome!";
         
-        $__internal_92a1ce30497da32fb29d9b1e573bf9b47217328cc84017daf5b8cd5e6d25ebe3->leave($__internal_92a1ce30497da32fb29d9b1e573bf9b47217328cc84017daf5b8cd5e6d25ebe3_prof);
+        $__internal_04fed1303df755a92efee1622d49005446c39a9c44e8f54a1d7355ed3168f1d1->leave($__internal_04fed1303df755a92efee1622d49005446c39a9c44e8f54a1d7355ed3168f1d1_prof);
 
         
-        $__internal_a299e4812840bf60f897d406e6fc8624a3cdd4fc73c328bb600883d278c3854c->leave($__internal_a299e4812840bf60f897d406e6fc8624a3cdd4fc73c328bb600883d278c3854c_prof);
+        $__internal_da82c25ec11a0ebf3d486b9b967ed2d9e27e325d171ade7098b3b268913b97d9->leave($__internal_da82c25ec11a0ebf3d486b9b967ed2d9e27e325d171ade7098b3b268913b97d9_prof);
 
     }
 
     // line 13
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_313136d73a1e03d538c2205a262578c78b6363851ea53e496db865065cc841a7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_313136d73a1e03d538c2205a262578c78b6363851ea53e496db865065cc841a7->enter($__internal_313136d73a1e03d538c2205a262578c78b6363851ea53e496db865065cc841a7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_a381f7b429b2a371fead649fa8710e4d18654e39be5657eb247b8b75bac8826d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a381f7b429b2a371fead649fa8710e4d18654e39be5657eb247b8b75bac8826d->enter($__internal_a381f7b429b2a371fead649fa8710e4d18654e39be5657eb247b8b75bac8826d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        $__internal_323beb398716265a2dace68cafab22d2556dd8abddc28b3c85a597f87f75120f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_323beb398716265a2dace68cafab22d2556dd8abddc28b3c85a597f87f75120f->enter($__internal_323beb398716265a2dace68cafab22d2556dd8abddc28b3c85a597f87f75120f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
-
-        
-        $__internal_323beb398716265a2dace68cafab22d2556dd8abddc28b3c85a597f87f75120f->leave($__internal_323beb398716265a2dace68cafab22d2556dd8abddc28b3c85a597f87f75120f_prof);
+        $__internal_7b945ae05150c9a6511d244836ecb3006f2267d0f9a57729e334f74350cafb0c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7b945ae05150c9a6511d244836ecb3006f2267d0f9a57729e334f74350cafb0c->enter($__internal_7b945ae05150c9a6511d244836ecb3006f2267d0f9a57729e334f74350cafb0c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         
-        $__internal_313136d73a1e03d538c2205a262578c78b6363851ea53e496db865065cc841a7->leave($__internal_313136d73a1e03d538c2205a262578c78b6363851ea53e496db865065cc841a7_prof);
+        $__internal_7b945ae05150c9a6511d244836ecb3006f2267d0f9a57729e334f74350cafb0c->leave($__internal_7b945ae05150c9a6511d244836ecb3006f2267d0f9a57729e334f74350cafb0c_prof);
+
+        
+        $__internal_a381f7b429b2a371fead649fa8710e4d18654e39be5657eb247b8b75bac8826d->leave($__internal_a381f7b429b2a371fead649fa8710e4d18654e39be5657eb247b8b75bac8826d_prof);
 
     }
 
-    // line 123
+    // line 119
     public function block_body($context, array $blocks = array())
     {
-        $__internal_0761f34252c3365cb00169d63b56faf1006ec45d2b568de6731a5bc7d0dca96c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_0761f34252c3365cb00169d63b56faf1006ec45d2b568de6731a5bc7d0dca96c->enter($__internal_0761f34252c3365cb00169d63b56faf1006ec45d2b568de6731a5bc7d0dca96c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_79f315b042ca76e9eb354390d6c80c39c5a27932fb6bacae41e417374cf44b70 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_79f315b042ca76e9eb354390d6c80c39c5a27932fb6bacae41e417374cf44b70->enter($__internal_79f315b042ca76e9eb354390d6c80c39c5a27932fb6bacae41e417374cf44b70_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_f867c723f70ea14b529261ecc56f6cda262c6f706f37d5ca089e242f93545d1d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f867c723f70ea14b529261ecc56f6cda262c6f706f37d5ca089e242f93545d1d->enter($__internal_f867c723f70ea14b529261ecc56f6cda262c6f706f37d5ca089e242f93545d1d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
-
-        
-        $__internal_f867c723f70ea14b529261ecc56f6cda262c6f706f37d5ca089e242f93545d1d->leave($__internal_f867c723f70ea14b529261ecc56f6cda262c6f706f37d5ca089e242f93545d1d_prof);
+        $__internal_2d357e87418727a367ae6173e303868d8da98adfbb3f893cf0f5184d68029e27 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2d357e87418727a367ae6173e303868d8da98adfbb3f893cf0f5184d68029e27->enter($__internal_2d357e87418727a367ae6173e303868d8da98adfbb3f893cf0f5184d68029e27_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         
-        $__internal_0761f34252c3365cb00169d63b56faf1006ec45d2b568de6731a5bc7d0dca96c->leave($__internal_0761f34252c3365cb00169d63b56faf1006ec45d2b568de6731a5bc7d0dca96c_prof);
+        $__internal_2d357e87418727a367ae6173e303868d8da98adfbb3f893cf0f5184d68029e27->leave($__internal_2d357e87418727a367ae6173e303868d8da98adfbb3f893cf0f5184d68029e27_prof);
+
+        
+        $__internal_79f315b042ca76e9eb354390d6c80c39c5a27932fb6bacae41e417374cf44b70->leave($__internal_79f315b042ca76e9eb354390d6c80c39c5a27932fb6bacae41e417374cf44b70_prof);
 
     }
 
-    // line 143
+    // line 139
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_16ffd764e0bff86266f72aa29db52a994c6818ecf7562f95861edb43e5a41482 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_16ffd764e0bff86266f72aa29db52a994c6818ecf7562f95861edb43e5a41482->enter($__internal_16ffd764e0bff86266f72aa29db52a994c6818ecf7562f95861edb43e5a41482_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_52e8c37a5720616fd6f0b9c3430e59f97988e361f82170d79deae9143231180f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_52e8c37a5720616fd6f0b9c3430e59f97988e361f82170d79deae9143231180f->enter($__internal_52e8c37a5720616fd6f0b9c3430e59f97988e361f82170d79deae9143231180f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        $__internal_87c2447c759afcde0face49684d8c56005a9dea7ac011c7539fc5eab42d795a3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_87c2447c759afcde0face49684d8c56005a9dea7ac011c7539fc5eab42d795a3->enter($__internal_87c2447c759afcde0face49684d8c56005a9dea7ac011c7539fc5eab42d795a3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
-
-        
-        $__internal_87c2447c759afcde0face49684d8c56005a9dea7ac011c7539fc5eab42d795a3->leave($__internal_87c2447c759afcde0face49684d8c56005a9dea7ac011c7539fc5eab42d795a3_prof);
+        $__internal_d1d6f263ece1c99fbab04dfc5192b36265094ebdd9cdb1c45931eca3f541545a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d1d6f263ece1c99fbab04dfc5192b36265094ebdd9cdb1c45931eca3f541545a->enter($__internal_d1d6f263ece1c99fbab04dfc5192b36265094ebdd9cdb1c45931eca3f541545a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         
-        $__internal_16ffd764e0bff86266f72aa29db52a994c6818ecf7562f95861edb43e5a41482->leave($__internal_16ffd764e0bff86266f72aa29db52a994c6818ecf7562f95861edb43e5a41482_prof);
+        $__internal_d1d6f263ece1c99fbab04dfc5192b36265094ebdd9cdb1c45931eca3f541545a->leave($__internal_d1d6f263ece1c99fbab04dfc5192b36265094ebdd9cdb1c45931eca3f541545a_prof);
+
+        
+        $__internal_52e8c37a5720616fd6f0b9c3430e59f97988e361f82170d79deae9143231180f->leave($__internal_52e8c37a5720616fd6f0b9c3430e59f97988e361f82170d79deae9143231180f_prof);
 
     }
 
@@ -295,7 +288,7 @@ class __TwigTemplate_b92f918bee3d100c674499949d29894e6b860085515e46accb3cddb6469
 
     public function getDebugInfo()
     {
-        return array (  270 => 143,  253 => 123,  236 => 13,  218 => 5,  206 => 144,  204 => 143,  200 => 142,  196 => 140,  193 => 138,  190 => 136,  180 => 127,  176 => 124,  174 => 123,  170 => 121,  167 => 119,  58 => 14,  56 => 13,  53 => 12,  50 => 10,  46 => 8,  42 => 7,  39 => 6,  35 => 5,  29 => 1,);
+        return array (  263 => 139,  246 => 119,  229 => 13,  211 => 5,  199 => 140,  197 => 139,  193 => 138,  189 => 136,  186 => 134,  183 => 132,  173 => 123,  169 => 120,  167 => 119,  163 => 117,  160 => 115,  87 => 44,  65 => 18,  58 => 14,  56 => 13,  53 => 12,  50 => 10,  46 => 8,  42 => 7,  39 => 6,  35 => 5,  29 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -324,6 +317,7 @@ class __TwigTemplate_b92f918bee3d100c674499949d29894e6b860085515e46accb3cddb6469
         <link rel=\"icon\" type=\"image/x-icon\" href=\"{{ asset('favicon.ico') }}\" />
     </head>
     <body>
+        {# Bootnsip: https://bootsnipp.com/snippets/featured/accordion-menu #}
         <nav class=\"navbar navbar-default navbar-static-top\">
             <div class=\"container-fluid\">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -338,31 +332,31 @@ class __TwigTemplate_b92f918bee3d100c674499949d29894e6b860085515e46accb3cddb6469
                         <span class=\"icon-bar\"></span>
                     </button>
                     <a class=\"navbar-brand\" href=\"#\">
-                        Administrator
+                        Administration
                     </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">      
-                    <form class=\"navbar-form navbar-left\" method=\"GET\" role=\"search\">
+                  {#   <form class=\"navbar-form navbar-left\" method=\"GET\" role=\"search\">
                         <div class=\"form-group\">
                             <input type=\"text\" name=\"q\" class=\"form-control\" placeholder=\"Search\">
                         </div>
                         <button type=\"submit\" class=\"btn btn-default\"><i class=\"glyphicon glyphicon-search\"></i></button>
-                    </form>
+                    </form> #}
                     <ul class=\"nav navbar-nav navbar-right\">
-                        <li><a href=\"http://www.pingpong-labs.com\" target=\"_blank\">Visit Site</a></li>
+                        <li><a href=\"http://www.pingpong-labs.com\" target=\"_blank\">Retour sur le site</a></li>
                         <li class=\"dropdown \">
                             <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">
-                                Account
+                                Compte
                                 <span class=\"caret\"></span></a>
                                 <ul class=\"dropdown-menu\" role=\"menu\">
-                                    <li class=\"dropdown-header\">SETTINGS</li>
+                                    <li class=\"dropdown-header\">Reglages</li>
                                     <li class=\"\"><a href=\"#\">Other Link</a></li>
                                     <li class=\"\"><a href=\"#\">Other Link</a></li>
                                     <li class=\"\"><a href=\"#\">Other Link</a></li>
                                     <li class=\"divider\"></li>
-                                    <li><a href=\"#\">Logout</a></li>
+                                    <li><a href=\"#\">Déconnexion</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -381,45 +375,40 @@ class __TwigTemplate_b92f918bee3d100c674499949d29894e6b860085515e46accb3cddb6469
                                     <!-- Main Menu -->
                                     <div class=\"side-menu-container\">
                                         <ul class=\"nav navbar-nav\">
-                                            <li class=\"active\"><a href=\"#\"><span class=\"glyphicon glyphicon-dashboard\"></span> Dashboard</a></li>
-                                            <li><a href=\"#\"><span class=\"glyphicon glyphicon-plane\"></span> Active Link</a></li>
-                                            <li><a href=\"#\"><span class=\"glyphicon glyphicon-cloud\"></span> Link</a></li>
-
                                             <!-- Dropdown-->
                                             <li class=\"panel panel-default\" id=\"dropdown\">
-                                                <a data-toggle=\"collapse\" href=\"#dropdown-lvl1\">
-                                                    <span class=\"glyphicon glyphicon-user\"></span> Sub Level <span class=\"caret\"></span>
+                                                <a data-toggle=\"collapse\" href=\"#house\">
+                                                    <span class=\"glyphicon glyphicon-home\"></span> Locations <span class=\"caret\"></span>
                                                 </a>
 
                                                 <!-- Dropdown level 1 -->
-                                                <div id=\"dropdown-lvl1\" class=\"panel-collapse collapse\">
+                                                <div id=\"house\" class=\"panel-collapse collapse\">
                                                     <div class=\"panel-body\">
                                                         <ul class=\"nav navbar-nav\">
-                                                            <li><a href=\"#\">Link</a></li>
-                                                            <li><a href=\"#\">Link</a></li>
-                                                            <li><a href=\"#\">Link</a></li>
-
-                                                            <!-- Dropdown level 2 -->
-                                                            <li class=\"panel panel-default\" id=\"dropdown\">
-                                                                <a data-toggle=\"collapse\" href=\"#dropdown-lvl2\">
-                                                                    <span class=\"glyphicon glyphicon-off\"></span> Sub Level <span class=\"caret\"></span>
-                                                                </a>
-                                                                <div id=\"dropdown-lvl2\" class=\"panel-collapse collapse\">
-                                                                    <div class=\"panel-body\">
-                                                                        <ul class=\"nav navbar-nav\">
-                                                                            <li><a href=\"#\">Link</a></li>
-                                                                            <li><a href=\"#\">Link</a></li>
-                                                                            <li><a href=\"#\">Link</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
+                                                            <li><a href=\"#\">Ajouter une location</a></li>
+                                                            <li><a href=\"#\">Liste des locations</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li><a href=\"#\"><span class=\"glyphicon glyphicon-signal\"></span> Link</a></li>
+                                            <!-- Dropdown-->
+                                            <li class=\"panel panel-default\" id=\"dropdown\">
+                                                <a data-toggle=\"collapse\" href=\"#users\">
+                                                    <span class=\"glyphicon glyphicon-user\"></span> Utilisateurs <span class=\"caret\"></span>
+                                                </a>
+
+                                                <!-- Dropdown level 1 -->
+                                                <div id=\"users\" class=\"panel-collapse collapse\">
+                                                    <div class=\"panel-body\">
+                                                        <ul class=\"nav navbar-nav\">
+                                                            <li><a href=\"#\">Voir les réservations</a></li>
+                                                            <li><a href=\"#\">Link</a></li>
+                                                            <li><a href=\"#\">Link</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
 
                                         </ul>
                                     </div><!-- /.navbar-collapse -->
